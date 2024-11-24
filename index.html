@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/fav.png" type="image/x-icon">
+
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Parroquia Espíritu Santo</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="rgba(249,156,40,1)"><path d="M14 2H10V8H4V12H10V22H14V12H20V8H14V2Z"></path></svg>
+                    Espíritu Santo
+                  </a>
+                  
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Inicio</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">Horarios</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#formations" class="nav__link">Formaciones</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#faqs" class="nav__link">FAQ</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">Contacto</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-line"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <div class="home__container container grid">
+                    <img src="assets/img/logo.png" alt="" class="home__img">
+
+                    <div class="home__data">
+                        <h1 class="home__title">
+                            Parroquia Espíritu Santo
+                        </h1>
+                        <p class="home__description">
+                            Monterrico, 24 de diciembre, Panamá.
+                        </p>
+                        <a href="#about" class="button button--flex">
+                            Ver más <i class="ri-arrow-right-down-line button__icon"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__social">
+                        <span class="home__social-follow">Síguenos</span>
+
+                        <div class="home__social-links">
+                            <a href="https://www.facebook.com/paespiritusan/" target="_blank" class="home__social-link">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/paespiritusan/" target="_blank" class="home__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a href="https://twitter.com/parroquiaes" target="_blank" class="home__social-link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section container" id="about">
+                <div class="about__container grid">
+                    <img src="assets/img/aboutt.png" alt="" class="about__img">
+
+                    <div class="about__data">
+                        <h2 class="section__title about__title">
+                            Horarios de Misas<br> <hr>
+                        </h2>
+
+                        <p class="about__description">
+                            <strong>Lunes - Viernes:</strong> 6:30 pm <br><hr><br>
+                            <strong>Sábados:</strong> 6:30 pm<br><br><hr><br>
+                            <strong>Domingos:</strong> 6:30 am - 8:00 am - 10:00 am - 12:00 pm - 6:30 pm
+                        </p>
+                        
+<!--
+                        <div class="about__details">
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                We always deliver on time.
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                We give you guides to protect and care for your plants.
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                We always come over for a check-up after sale.
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                100% money back guaranteed.
+                            </p>
+                        </div>
+                        -->
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== STEPS ====================-->
+            <section class="steps section container" id="formations">
+                <div class="steps__bg">
+                    <h2 class="section__title-center steps__title">
+                        Formaciones <br> 
+                    </h2>
+
+                    <div class="steps__container grid">
+                        <div class="steps__card">
+                            <div class="steps__card-number">01</div>
+                            <h3 class="steps__card-title">Eucaristía</h3>
+                            <p class="steps__card-description">
+                                Se celebran misas todos los días de la semana.
+                            </p>
+                        </div>
+
+                        <div class="steps__card">
+                            <div class="steps__card-number">02</div>
+                            <h3 class="steps__card-title">Bautismo</h3>
+                            <p class="steps__card-description">
+                                Se realizan bautizos todos los meses.
+                            </p>
+                        </div>
+
+                        <div class="steps__card">
+                            <div class="steps__card-number">03</div>
+                            <h3 class="steps__card-title">Primera Comunión</h3>
+                            <p class="steps__card-description">
+                                Se prepara a los niños para recibir la Primera Comunión.
+                            </p>
+                        </div>
+
+                        <div class="steps__card">
+                            <div class="steps__card-number">04</div>
+                            <h3 class="steps__card-title">Confirmación </h3>
+                            <p class="steps__card-description">
+                                Se prepara a los jóvenes para recibir el sacramento de la Confirmación.
+                            </p>
+                        </div>
+
+                        <div class="steps__card">
+                            <div class="steps__card-number">05</div>
+                            <h3 class="steps__card-title">Matrimonio </h3>
+                            <p class="steps__card-description">
+                                Se ofrecen cursos prematrimoniales y se celebran matrimonios.
+                            </p>
+                        </div>
+
+                        <div class="steps__card">
+                            <div class="steps__card-number">06</div>
+                            <h3 class="steps__card-title">Unción de los enfermos </h3>
+                            <p class="steps__card-description">
+                                Por la unción sagrada y la oración del sacerdote, la Iglesia entera encomienda a Cristo a los que están enfermos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        <!--==================== MARQUEE ====================-->
+             <br><br><br>
+            <div class="marquee">
+                <img src="assets/img/MA1.jpg" alt="Imagen 1">
+                <img src="assets/img/MA2.jpg" alt="Imagen 2">
+                <img src="assets/img/MA3.jpg" alt="Imagen 3">
+                <img src="assets/img/MA4.jpg" alt="Imagen 4">
+                <img src="assets/img/MA5.jpg" alt="Imagen 5">
+
+                <img src="assets/img/MA1.jpg" alt="Imagen 1">
+                <img src="assets/img/MA2.jpg" alt="Imagen 2">
+                <img src="assets/img/MA3.jpg" alt="Imagen 3">
+                <img src="assets/img/MA4.jpg" alt="Imagen 4">
+                <img src="assets/img/MA5.jpg" alt="Imagen 5">
+              </div>
+            <br><br><br>
+
+
+            <!--==================== PRODUCTS ====================
+            <section class="product section container" id="products">
+                <h2 class="section__title-center">
+                    Calendario Liturgico <br> 2024
+                </h2>
+
+                <p class="product__description">
+                    En este se muestran todas las actividades liturgicas del año.
+                </p>
+
+                <div class="product__container grid">
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="assets/img/product1.png" alt="" class="product__img">
+
+                        <h3 class="product__title">Cacti Plant</h3>
+                        <span class="product__price">$19.99</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="assets/img/product2.png" alt="" class="product__img">
+
+                        <h3 class="product__title">Cactus Plant</h3>
+                        <span class="product__price">$11.99</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="assets/img/product3.png" alt="" class="product__img">
+
+                        <h3 class="product__title">Aloe Vera Plant</h3>
+                        <span class="product__price">$7.99</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="assets/img/product4.png" alt="" class="product__img">
+
+                        <h3 class="product__title">Succulent Plant</h3>
+                        <span class="product__price">$5.99</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="assets/img/product5.png" alt="" class="product__img">
+
+                        <h3 class="product__title">Succulent Plant</h3>
+                        <span class="product__price">$10.99</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="assets/img/product6.png" alt="" class="product__img">
+
+                        <h3 class="product__title">Green Plant</h3>
+                        <span class="product__price">$8.99</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+                </div>
+                -->
+            </section>
+
+            <!--==================== QUESTIONS ====================-->
+            <section class="questions section" id="faqs">
+                <h2 class="section__title-center questions__title container">
+                    Algunas dudas <br> que a menudo nos preguntan
+                </h2>
+
+                <div class="questions__container container grid">
+                    <div class="questions__group">
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    ¿Cómo puedo bautizar a mi hijo?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Para bautizar a su hijo, debe comunicarse con la oficina parroquial al +507 6254-5809 o al correo electrónico parroquiadelespiritu@gmail.com. Se requiere una serie de requisitos, incluyendo certificado de nacimiento del niño, partida de matrimonio de los padres y padrinos, y asistencia a una catequesis prebautismal.
+
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    ¿Cómo puedo prepararme para la Primera Comunión?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    La parroquia ofrece un programa de catequesis para niños que se 
+                                    preparan para recibir la Primera Comunión. Para más información,
+                                     contacte a la oficina parroquial.
+
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    ¿Qué necesito para casarme por la Iglesia?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Para casarse por la Iglesia, se requiere la participación en 
+                                    un curso prematrimonial, así como la presentación de documentos como
+                                     partidas de nacimiento, certificados de bautismo y soltería. 
+                                     Para más información, contacte a la oficina parroquial.
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="questions__group">
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    ¿Hay grupos de oración en la parroquia?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Sí, hay diversos grupos de oración que se reúnen regularmente. 
+                                    Para más información, consulte el sitio web de la parroquia o contacte a la oficina parroquial.
+
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    ¿Cómo puedo ayudar a la comunidad de la parroquia?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Hay muchas maneras de ayudar a la comunidad de la parroquia. 
+                                    Puede participar en las actividades pastorales, donar a la
+                                     parroquia o simplemente ofrecer su tiempo como voluntario. 
+                                     Para más información, contacte a la oficina parroquial.
+
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    ¿Cómo puedo ser voluntario en la parroquia?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Hay muchas maneras de ser voluntario en la parroquia. 
+                                    uede ayudar en la liturgia, la catequesis, la pastoral
+                                     social o en otras actividades. Para más información, contacte a la oficina parroquial.
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <!--==================== LOCATION ====================-->
+
+
+<br><br><br>
+            <div class="container">
+                <main>
+                    <h2 class="section__title-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="25" height="25" fill="rgba(251,166,40,1)"><path d="M2 5L9 2L15 5L21.303 2.2987C21.5569 2.18992 21.8508 2.30749 21.9596 2.56131C21.9862 2.62355 22 2.69056 22 2.75827V19L15 22L9 19L2.69696 21.7013C2.44314 21.8101 2.14921 21.6925 2.04043 21.4387C2.01375 21.3765 2 21.3094 2 21.2417V5ZM15 19.7639V7.17594L14.9352 7.20369L9 4.23607V16.8241L9.06476 16.7963L15 19.7639Z"></path></svg>
+                        Ubicación
+                      </h2>
+                      
+                  <section class="mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.541828136195!2d-79.36536872436812!3d9.105434290958966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e54ab4147aaaaaf%3A0xb73613f2bc769e20!2sParroquia%20Esp%C3%ADritu%20Santo!5e0!3m2!1sen!2spa!4v1708623660408!5m2!1sen!2spa" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </section>                </main>
+              </div>
+
+
+
+
+
+
+
+
+
+            <!--==================== CONTACT ====================-->
+            <section class="contact section container" id="contact">                
+                <div class="contact__container grid">
+                    <div class="contact__box">
+                        <h2 class="section__title">
+                            Contáctenos  <br>por cualquier medio
+                        </h2>
+
+                        <div class="contact__data">
+                            <div class="contact__information">
+                                <h3 class="contact__subtitle">Llámanos</h3>
+                                <span class="contact__description">
+                                    <i class="ri-phone-line contact__icon"></i>
+                                    +507 384-8313
+                                </span>
+                            </div>
+
+                            
+
+                            <div class="contact__information">
+                                <h3 class="contact__subtitle">Whatsapp</h3>
+                                <span class="contact__description">
+                                    <i class="ri-whatsapp-line contact__icon"></i>
+                                    +507 6254-5809
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form action="" class="contact__form" onsubmit="sendEmail(event)">
+                        <h2 class="section__title">
+                            Correo electrónico
+                        </h2>
+                        <div class="contact__content">
+                            <input type="text" id="subject" placeholder=" " class="contact__input" required>
+                            <label for="subject" class="contact__label">Asunto</label>
+                        </div>
+                        <br>
+                        <div class="contact__content contact__area">
+                            <textarea id="message" name="message" placeholder=" " class="contact__input" required></textarea>
+                            <label for="message" class="contact__label">Mensaje</label>
+                        </div>
+                    <br>
+                        <button type="submit" class="button button--flex">
+                            Enviar Mensaje
+                            <i class="ri-arrow-right-up-line button__icon"></i>
+                        </button>
+                    </form>
+                    
+                    <script>
+                        function sendEmail(event) {
+                            event.preventDefault(); // Evita que el formulario se envíe de forma predeterminada
+                    
+                            // Obtén los valores de los campos
+                            const subject = document.getElementById("subject").value;
+                            const message = document.getElementById("message").value;
+                    
+                            // Define el correo del destinatario
+                            const recipient = "parroquiadelespiritu@gmail.com";
+                    
+                            // Construye el enlace mailto
+                            const mailtoLink = `mailto:${recipient}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`;
+                    
+                            // Redirige al enlace mailto
+                            window.location.href = mailtoLink;
+                        }
+                    </script>
+                    
+                    
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content">
+                    <a href="#" class="nav__logo">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="rgba(249,156,40,1)"><path d="M14 2H10V8H4V12H10V22H14V12H20V8H14V2Z"></path></svg>
+                        Espíritu Santo
+                      </a>
+
+                    <h3 class="footer__title">
+                        Padre. Jhonnathan Pulido
+                    </h3>
+
+
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Dirección</h3>
+
+                    <ul class="footer__data">
+                        <li class="footer__information">Ciudad de Panamá</li>
+                        <li class="footer__information">24 de diciembre</li>
+                        <li class="footer__information">Monterrico</li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Teléfono </h3>
+
+                    <ul class="footer__data">
+                        <li class="footer__information">384- 8313</li>
+                        
+                        <div class="footer__social">
+                            <a href="https://www.facebook.com/paespiritusan" class="footer__social-link">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/paespiritusan" class="footer__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a href="https://twitter.com/parroquiaes" class="footer__social-link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                            <a href="https://www.youtube.com/@paespiritusan/videos" class="footer__social-link">
+                                <i class="ri-youtube-fill"></i>
+                            </a>
+                        </div>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">
+                        Oficina Virtual
+                    </h3>
+
+                    <ul class="footer__data">
+                        <li class="footer__information"><i class="ri-whatsapp-line"></i> <a href="https://wa.me/50762545809" style="color:inherit; text-decoration:inherit;">6254 5809</a></li>
+                    </ul>
+        </footer>
+        <p class="footer__copy">&#169; Parroquia Espíritu Santo. Todos los derechos reservados 2024.<br>
+            <span style="color: #ffffff;">By Antonio Bernal</span> </p>
+        
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up"> 
+            <i class="ri-arrow-up-fill scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
